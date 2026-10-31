@@ -96,7 +96,7 @@ export function Contact() {
     <div className="cards"><Card name="LinkedIn" sub="Connect with me" url={"https://www.linkedin.com/in/akanksha-bhardwaj-3408096a/"} what="LinkedIn URL" d={IN} /><Card name="GitHub" sub="View my projects" url={"https://github.com/AkankshaB-004/"} what="GitHub URL" d={GH} /></div>
     <div className="btns">
       {C.email ? <a className="btn p" href={`mailto:${C.email}`}>Send me an email</a>
-        : <a className="btn p" href="#contact" onClick={e => { e.preventDefault(); notify('Placeholder: add your email address in src/config.ts.') }}>Send me an email</a>}
+        : <a className="btn p" href="#contact" onClick={e => { e.preventDefault() }}>Send me an email</a>}
       <ResumeButton /></div></section>
     <div className="wrap foot"><span>© {new Date().getFullYear()} {C.name}</span><span></span></div></footer>
 }

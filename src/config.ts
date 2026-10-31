@@ -7,8 +7,8 @@ export const CONFIG: Config = {
   name: "Akanksha Bhardwaj",
   available: "Open to Senior / Lead Software Engineer roles",   // set "" to hide
   email: "akanksha.bhardwaj73@gmail.com",                 // e.g. "you@example.com"              // full URL
-  resumeUrl: "",             // e.g. "/resume.pdf" after you put the PDF in /public
-  resumeFile: "Akanksha_Bhardwaj_Senior_Full_Stack_Engineer.pdf",
+  resumeUrl: "Akanksha_Bhardwaj_Resume.pdf",             // e.g. "/resume.pdf" after you put the PDF in /public
+  resumeFile: "Akanksha_Bhardwaj_Resume.pdf",
   skills: [
     { g: "Frontend engineering", key: ["React.js", "TypeScript", "JavaScript (ES6+)", "Angular 11"], rest: ["HTML5 & CSS3", "State management"] },
     { g: "Backend development", key: ["Node.js"], rest: ["Express.js"] },
