@@ -12,7 +12,7 @@ export const CONFIG: Config = {
   skills: [
     { g: "Frontend engineering", key: ["React.js", "TypeScript", "JavaScript (ES6+)", "Angular 11"], rest: ["HTML5 & CSS3", "State management"] },
     { g: "Backend development", key: ["Node.js"], rest: ["Express.js"] },
-    { g: "Databases and APIs", key: ["MongoDB"], rest: ["Mongoose", "REST APIs", "API integration"] },
+    { g: "Databases and APIs", key: ["MongoDB", "SQL"], rest: ["Mongoose", "REST APIs", "API integration"] },
     { g: "Testing and code quality", key: [], rest: ["Jest", "Jasmine", "Karma", "Unit testing", "TDD principles", "SonarQube"] },
     { g: "CI/CD and developer tooling", key: [], rest: ["Jenkins", "GitLab CI/CD", "Git", "Webpack", "Build & deployment automation"] },
     { g: "Architecture and performance", key: [], rest: ["Microfrontend architecture", "Frontend performance optimization", "Maintainable component design"] }
